@@ -8,5 +8,5 @@ func main () {
 	fmt.Printf("Дано такое число %f, надо уменьшить разрядность. \n", pi)
 	piInt := int64(pi*1000)
 	piFloat := float64(piInt)/1000
-	fmt.Println("Уменьшенная разрадность, без округлений:", piFloat)
+	fmt.Println("Уменьшенная разрядность, без округлений:", piFloat)
 }
